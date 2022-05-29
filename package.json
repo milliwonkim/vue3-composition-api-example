@@ -8,6 +8,7 @@
     "test:unit": "vitest --environment jsdom",
     "test:e2e": "start-server-and-test preview http://127.0.0.1:5050/ 'cypress open'",
     "cypress:run": "cypress run --env grepTags=mandatory",
+    "cypress:open": "cypress open --env grepTags=mandatory",
     "test:e2e:ci": "start-server-and-test preview http://127.0.0.1:5050/ 'cypress run --env grepTags=mandatory'",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write ."
