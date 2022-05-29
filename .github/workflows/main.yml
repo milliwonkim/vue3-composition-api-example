@@ -15,7 +15,7 @@ jobs:
     - name: repo-sync
       uses: repo-sync/github-sync@v2
       with:
-        source_repo: "https://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@github.com/milliwonkim/vue3-composition-api-example.git"
+        source_repo: "https://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@github.com/milliwonkim/vue3-composition-api-example.git"
         source_branch: 'test'
         destination_branch: 'main'
         github_token: ${{ secrets.GITHUB_TOKEN }}
