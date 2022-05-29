@@ -15,6 +15,6 @@ jobs:
     - name: repo-sync
       uses: repo-sync/github-sync@v2
       with:
-        source_branch: test
-        destination_branch: main
+        source_branch: 'test'
+        destination_branch: 'main'
         github_token: ${{ secrets.GITHUB_TOKEN }}
