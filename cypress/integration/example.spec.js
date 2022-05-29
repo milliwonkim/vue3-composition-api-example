@@ -1,7 +1,7 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-describe("꼭 필요한 테스트", () => {
-  it("visits the app root url", { tags: "mandatory" }, () => {
+describe("My First Test", () => {
+  it("꼭 필요한 테스트", { tags: "mandatory" }, () => {
     cy.visit("http://localhost:3000/landing")
     cy.contains("h1", "You did it!")
     cy.intercept("GET", "/dev/getLambda", {
