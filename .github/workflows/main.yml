@@ -23,6 +23,6 @@ jobs:
       uses: cypress-io/github-action@v2
       with:
         build: yarn build
-        start:
+        start: |
           yarn dev
           yarn cypress:run
