@@ -19,3 +19,8 @@ jobs:
         source_branch: 'test'
         destination_branch: 'main'
         github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Cypress run
+      uses: cypress-io/github-action@v2
+      with:
+        build: npm run build
+        start: npm start
