@@ -4,6 +4,7 @@ name: Unit Tests
 # execute on events
 on:
   push: 
+    branches:
       - development
   pull_request:
     branches:
