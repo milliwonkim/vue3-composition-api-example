@@ -3,7 +3,7 @@ name: Unit Tests
 
 # execute on events
 on:
-  commit: 
+  push: 
       - development
   pull_request:
     branches:
