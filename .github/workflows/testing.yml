@@ -25,6 +25,9 @@ jobs:
       # 3: install NPM dependencies
       - name: Install dependencies
         run: yarn install
+
+      - name: Open Test Serever
+        run: yarn test:e2e
       
       # 4: run test command
       - name: Run test command
